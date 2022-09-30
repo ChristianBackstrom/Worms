@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4684cef0b50dd64a8d5c5d3c0a1b14e, type: 3}
+  m_Name: PlayerMovement
+  m_EditorClassIdentifier: 
+  maxSpeed: 300
+  jumpForce: 10
+  RayCastLength: 1.5
+  coyoteTime: 0
+  gravityScale: 60
