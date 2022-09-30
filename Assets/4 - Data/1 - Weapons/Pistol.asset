@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a13c6da63fec9304ba3827d388f390ee, type: 3}
   m_Name: Pistol
   m_EditorClassIdentifier: 
-  damage: 3
+  damage: 2
   maxAmmo: 50
-  ammo: 44
+  ammo: 49
   magMaxSize: 2
   isRocket: 0
   radius: 0
   explosionForce: 0
-  speed: 60000
+  speed: 20000
   lifeTime: 10
   weapon: {fileID: 1694449805434718, guid: 6f1a7354265853f44b0ed5e2e43676ad, type: 3}
   bullet: {fileID: 3294899544288082345, guid: 27fae6fa5928d7f428e177192e346fdf, type: 3}

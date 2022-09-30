@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a13c6da63fec9304ba3827d388f390ee, type: 3}
   m_Name: RPG
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 1
   maxAmmo: 10
-  ammo: 10
+  ammo: 9
   magMaxSize: 1
   isRocket: 1
-  radius: 5
+  radius: 10
   explosionForce: 1000
-  speed: 30000
+  speed: 40000
   lifeTime: 10
   weapon: {fileID: 1411512464560164, guid: 02baef62b1bfedf40bb369fb7542b9e7, type: 3}
   bullet: {fileID: 6315944680636853098, guid: 79879280daf6a1c4daa3632bf85b46ca, type: 3}
