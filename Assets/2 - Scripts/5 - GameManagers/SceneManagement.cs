@@ -8,6 +8,7 @@ public class SceneManagement : MonoBehaviour
 
     private int winningTeam;
     private Color teamColor;
+    public Scene currentScene;
 
     private void Awake()
     {
@@ -21,6 +22,11 @@ public class SceneManagement : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+    }
+
+    private void Update()
+    {
+        currentScene = SceneManager.GetActiveScene();
     }
 
     private void OnEnable()

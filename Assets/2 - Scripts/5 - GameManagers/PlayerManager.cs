@@ -95,11 +95,6 @@ public class PlayerManager : MonoBehaviour
 
         return player;
     }
-
-    public void RemovePlayer()
-    {
-
-    }
 }
 public class Player
 {

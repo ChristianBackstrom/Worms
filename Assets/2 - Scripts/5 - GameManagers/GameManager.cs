@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     private int[] playersAlive;
     private List<bool> teamAlive;
     private Color[] teamColors;
-    private List<Player> players = new List<Player>();
+    [HideInInspector] public List<Player> players = new List<Player>();
 
     private void Awake()
     {
