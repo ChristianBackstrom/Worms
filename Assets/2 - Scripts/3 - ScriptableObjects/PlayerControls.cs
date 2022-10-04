@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "PlayerControls", menuName = "Worms-3D/PlayerControls", order = 0)]
+[CreateAssetMenu(fileName = "PlayerControls", menuName = "Player/Controls", order = 0)]
 public class PlayerControls : ScriptableObject
 {
     [Header("Controls")]

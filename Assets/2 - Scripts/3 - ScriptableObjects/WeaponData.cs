@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "WeaponData", menuName = "Worms-3D/WeaponData", order = 0)]
+[CreateAssetMenu(fileName = "WeaponData", menuName = "Worms/WeaponData", order = 0)]
 public class WeaponData : ScriptableObject
 {
     public int damage;
