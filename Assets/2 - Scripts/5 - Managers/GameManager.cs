@@ -124,7 +124,16 @@ public class GameManager : MonoBehaviour
                 teamAlive[teamId] = false;
             }
         }
-
         CheckForWinner();
+    }
+
+    public void DeactivateCurrentPlayer()
+    {
+        players[activePlayer[activeTeam]].Deactivate();
+    }
+
+    public void ActivateCurrentPlayer()
+    {
+        players[activePlayer[activeTeam]].Activate();
     }
 }

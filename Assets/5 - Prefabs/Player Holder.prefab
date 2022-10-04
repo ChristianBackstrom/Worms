@@ -557,7 +557,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8216252496225478932}
-  m_LocalRotation: {x: 0.10862033, y: -0.7435229, z: 0.1246418, w: 0.6479505}
+  m_LocalRotation: {x: 0.29835832, y: 0.11612562, z: -0.0365994, w: 0.94665605}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -635,7 +635,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8216252496324925100}
-  m_LocalRotation: {x: 0.04191853, y: -0.7523617, z: 0.048101485, w: 0.6556532}
+  m_LocalRotation: {x: 0.21206574, y: 0.11894515, z: -0.02601395, w: 0.9696409}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.6470689, z: -3.2318943}
+  m_FollowOffset: {x: 0, y: 2.423866, z: -2.6030467}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -895,7 +895,7 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: -97.8583
+    Value: 13.986984
     m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
@@ -1214,7 +1214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.6470689, z: -3.2318943}
+  m_FollowOffset: {x: 0, y: 2.423866, z: -2.6030467}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1234,7 +1234,7 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: -97.8583
+    Value: 13.986984
     m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
@@ -1551,7 +1551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.6470689, z: -3.2318943}
+  m_FollowOffset: {x: 0, y: 2.423866, z: -2.6030467}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1571,7 +1571,7 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: -97.8583
+    Value: 13.986984
     m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
@@ -1677,8 +1677,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8216252496715371714}
-  m_LocalRotation: {x: 0.15338045, y: -0.7330651, z: 0.17600398, w: 0.6388369}
-  m_LocalPosition: {x: 0.00012111664, y: -0.00016260147, z: 0.00001692772}
+  m_LocalRotation: {x: 0.3634408, y: 0.11330064, z: -0.044583034, w: 0.9236266}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1774,7 +1774,7 @@ GameObject:
   - component: {fileID: 8216252497195627241}
   m_Layer: 3
   m_Name: Third Person cam (Combat)
-  m_TagString: Untagged
+  m_TagString: CM Cams
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1838,7 +1838,7 @@ MonoBehaviour:
   m_YAxis:
     Value: 0.5
     m_SpeedMode: 0
-    m_MaxSpeed: 1
+    m_MaxSpeed: 2
     m_AccelTime: 0.2
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
@@ -1862,7 +1862,7 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 200
+    m_MaxSpeed: 300
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
@@ -1944,7 +1944,7 @@ GameObject:
   - component: {fileID: 8216252497634791853}
   m_Layer: 3
   m_Name: Third Person cam (Basic)
-  m_TagString: Untagged
+  m_TagString: CM Cams
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1957,7 +1957,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8216252497634791850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2015443, y: 1.647069, z: 3.4418766}
+  m_LocalPosition: {x: -0.6291602, y: 2.4238663, z: 0.47413206}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2008,7 +2008,7 @@ MonoBehaviour:
   m_YAxis:
     Value: 0.5
     m_SpeedMode: 0
-    m_MaxSpeed: 1
+    m_MaxSpeed: 2
     m_AccelTime: 0.2
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
@@ -2030,9 +2030,9 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: -97.8583
+    Value: 13.986984
     m_SpeedMode: 0
-    m_MaxSpeed: 200
+    m_MaxSpeed: 300
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X

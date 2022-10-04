@@ -29,7 +29,7 @@ public class WinScene : MonoBehaviour
     private IEnumerator LoadMainMenu()
     {
         yield return new WaitForSeconds(5);
-        SceneManagement.instance.LoadScene("Main Menu");
+        SceneManagement.instance.LoadMenuScene();
     }
 
     public void SetWinText(int winningTeam, Color winningColor)

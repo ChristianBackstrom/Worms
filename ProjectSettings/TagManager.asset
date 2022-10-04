@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Trees
   - SpawnPoint
+  - CM Cams
   layers:
   - Default
   - TransparentFX
