@@ -7,9 +7,9 @@ public class CharacterController : Health
 {
     [Header("References")]
     [SerializeField] private ThirdPersonCamera thirdPersonCamera;
+    [SerializeField] private Image healthBar;
     [HideInInspector] public int playerId;
     [HideInInspector] public int teamId;
-    [SerializeField] private Image healthBar;
     private Color color;
 
 
