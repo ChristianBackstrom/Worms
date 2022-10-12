@@ -24,36 +24,36 @@ public class SettingsUI : MonoBehaviour
 
     public void SetMouseSensitivityX(float valueX)
     {
-        settingsManager.settings.MouseSensitivityX = valueX;
+        settingsManager.setting.MouseSensitivityX = valueX;
     }
 
     public void SetInvertX(bool value)
     {
-        settingsManager.settings.InvertX = value;
+        settingsManager.setting.InvertX = value;
     }
 
     public void SetMouseSensitivityY(float valueY)
     {
-        settingsManager.settings.MouseSensitivityY = valueY;
+        settingsManager.setting.MouseSensitivityY = valueY;
     }
 
     public void SetInvertY(bool value)
     {
-        settingsManager.settings.InvertY = !value;
+        settingsManager.setting.InvertY = !value;
     }
 
     public void SetVolume(float value)
     {
-        settingsManager.settings.Volume = value;
+        settingsManager.setting.Volume = value;
     }
 
     private void SetValues()
     {
-        volumeSlider.value = settingsManager.settings.Volume;
-        invertYToggle.isOn = !settingsManager.settings.InvertY;
-        invertXToggle.isOn = settingsManager.settings.InvertX;
-        mouseSensitivityXSlider.value = settingsManager.settings.MouseSensitivityX;
-        mouseSensitivityYSlider.value = settingsManager.settings.MouseSensitivityY;
+        volumeSlider.value = settingsManager.setting.Volume;
+        invertYToggle.isOn = !settingsManager.setting.InvertY;
+        invertXToggle.isOn = settingsManager.setting.InvertX;
+        mouseSensitivityXSlider.value = settingsManager.setting.MouseSensitivityX;
+        mouseSensitivityYSlider.value = settingsManager.setting.MouseSensitivityY;
     }
 
     public void SaveSettings()

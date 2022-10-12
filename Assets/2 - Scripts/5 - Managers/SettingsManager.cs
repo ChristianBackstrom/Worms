@@ -4,13 +4,13 @@ public class SettingsManager : MonoBehaviour
 {
     public static SettingsManager Instance { get; private set; }
 
-    [SerializeField] public Settings settings;
+    [SerializeField] public Settings setting;
 
     private void Awake()
     {
-        settings = new Settings();
+        setting = new Settings();
 
-        settings.LoadSettings();
+        setting.LoadSettings();
 
         if (Instance == null)
         {
@@ -25,7 +25,7 @@ public class SettingsManager : MonoBehaviour
 
     public void LoadSettings()
     {
-        AudioListener.volume = settings.Volume;
+        AudioListener.volume = setting.Volume;
 
         Cinemachine.CinemachineFreeLook[] cmCams = Resources.FindObjectsOfTypeAll<Cinemachine.CinemachineFreeLook>();
 
@@ -33,15 +33,15 @@ public class SettingsManager : MonoBehaviour
 
         foreach (var cmCam in cmCams)
         {
-            cmCam.m_XAxis.m_InvertInput = settings.InvertX;
-            cmCam.m_YAxis.m_InvertInput = settings.InvertY;
-            cmCam.m_XAxis.m_MaxSpeed *= settings.MouseSensitivityX;
-            cmCam.m_YAxis.m_MaxSpeed *= settings.MouseSensitivityY;
+            cmCam.m_XAxis.m_InvertInput = setting.InvertX;
+            cmCam.m_YAxis.m_InvertInput = setting.InvertY;
+            cmCam.m_XAxis.m_MaxSpeed *= setting.MouseSensitivityX;
+            cmCam.m_YAxis.m_MaxSpeed *= setting.MouseSensitivityY;
         }
     }
 
     public void SaveSettings()
     {
-        settings.SaveSettings();
+        setting.SaveSettings();
     }
 }
